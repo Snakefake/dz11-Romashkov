@@ -2,10 +2,10 @@
 header {
   font-family: "Open Sans";
   background-image: url(.././img/header_bg.png);
-  padding-bottom: 120px;
+  padding-top: 27px;
 }
 
-header .menu {
+header .menu ul {
   max-width: 1300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,7 +39,12 @@ header .menu .menu__component a:hover {
   transition: 0.3s;
 }
 
-header .header__preview {
+main .main__wrapper {
+  background-image: url(.././img/header_bg.png);
+  font-family: "Open Sans";
+}
+
+main .main__preview {
   max-width: 1300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,25 +56,30 @@ header .header__preview {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
-  margin-top: 104px;
+  padding-top: 104px;
+  padding-bottom: 104px;
 }
 
-header .header__preview .header__text-wrapper .header__text-title {
+main .main__preview .main__text-wrapper {
+  margin-bottom: 55px;
+}
+
+main .main__preview .main__text-wrapper .main__text-title {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 60px;
 }
 
-header .header__preview .header__text-wrapper .header__text-description {
+main .main__preview .main__text-wrapper .main__text-description {
   font-weight: 400;
   color: #6f6d6d;
 }
 
-header .header__preview .header__text-wrapper .header__button {
+main .main__preview .main__text-wrapper .main__button {
   margin-top: 73px;
 }
 
-header .header__preview .header__text-wrapper .header__button a {
+main .main__preview .main__text-wrapper .main__button a {
   text-decoration: none;
   font-weight: 700;
   padding: 20px 60px;
@@ -85,19 +95,19 @@ header .header__preview .header__text-wrapper .header__button a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
   margin-top: 105px;
+  padding-bottom: 40px;
 }
 
 .services .services__text-wrapper {
   margin-right: 120px;
-  margin-bottom: 160px;
 }
 
 .services .services__text-wrapper .services__text-title {
